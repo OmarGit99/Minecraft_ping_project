@@ -4,7 +4,7 @@
 from mcstatus import MinecraftServer
 
 
-server = MinecraftServer.lookup("tacobyte.xyz")
+server = MinecraftServer.lookup("servername.org") # Your server name here
 
 
 status = server.status()
